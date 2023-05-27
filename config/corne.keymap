@@ -13,15 +13,9 @@
     combos {
         compatible = "zmk,combos";
 
-        jumpto6 {
-            bindings = <&tog 5>;
-            key-positions = <37 38>;
-            layers = <6>;
-        };
-
         jumpto0 {
-            bindings = <&tog 0>;
-            key-positions = <36 37>;
+            bindings = <&to 0>;
+            key-positions = <29 25>;
         };
 
         nkey {
@@ -31,7 +25,7 @@
 
         layerjump {
             bindings = <&to 5>;
-            key-positions = <34 22>;
+            key-positions = <30 35>;
         };
     };
 
