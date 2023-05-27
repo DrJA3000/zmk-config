@@ -14,13 +14,13 @@
         compatible = "zmk,combos";
 
         jumpto6 {
-            bindings = <&to 5>;
+            bindings = <&tog 5>;
             key-positions = <37 38>;
             layers = <6>;
         };
 
         jumpto0 {
-            bindings = <&to 0>;
+            bindings = <&tog 0>;
             key-positions = <36 37>;
         };
 
