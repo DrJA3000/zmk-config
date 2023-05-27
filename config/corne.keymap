@@ -25,7 +25,7 @@
 
         layerjump {
             bindings = <&to 5>;
-            key-positions = <30 35>;
+            key-positions = <30 34>;
         };
     };
 
