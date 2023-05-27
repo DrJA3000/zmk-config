@@ -23,6 +23,11 @@
             bindings = <&to 0>;
             key-positions = <36 37>;
         };
+
+        new_combo {
+            bindings = <&kp B>;
+            key-positions = <40 41>;
+        };
     };
 
     keymap {
