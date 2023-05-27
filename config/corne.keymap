@@ -15,7 +15,7 @@
 
         jumpto6 {
             bindings = <&to 5>;
-            key-positions = <36 37 38 40 41 39>;
+            key-positions = <36 37 38>;
             layers = <5>;
         };
 
