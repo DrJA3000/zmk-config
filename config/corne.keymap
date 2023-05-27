@@ -24,12 +24,12 @@
             key-positions = <36 37>;
         };
 
-        new_combo {
+        nkey {
             bindings = <&kp N>;
             key-positions = <40 41>;
         };
 
-        new_combo {
+        layerjump {
             bindings = <&to 5>;
             key-positions = <34 22>;
         };
