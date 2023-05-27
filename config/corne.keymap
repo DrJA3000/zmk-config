@@ -28,6 +28,11 @@
             bindings = <&kp N>;
             key-positions = <40 41>;
         };
+
+        new_combo {
+            bindings = <&to 5>;
+            key-positions = <34 22>;
+        };
     };
 
     keymap {
