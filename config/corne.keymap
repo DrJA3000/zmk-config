@@ -13,10 +13,15 @@
     combos {
         compatible = "zmk,combos";
 
-        new_combo {
-            bindings = <&trans>;
+        jumpto6 {
+            bindings = <&to 5>;
             key-positions = <36 37 38 40 41 39>;
             layers = <5>;
+        };
+
+        jumpto0 {
+            bindings = <&to 0>;
+            key-positions = <36 37>;
         };
     };
 
@@ -88,16 +93,25 @@
 
         layer_5 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans      &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4  &kp P  &kp NUMBER_6
-&trans  &trans  &trans  &trans  &trans  &trans         &kp TILDE         &kp Q             &kp W         &kp E  &kp F         &kp 0
-&trans  &trans  &trans  &trans  &trans  &trans             &kp X         &kp A             &kp S         &kp D  &kp C         &kp 0
-                        &trans  &trans  &trans    &kp LEFT_SHIFT        &trans  &kt LEFT_CONTROL
+&trans  &trans  &trans  &trans  &trans  &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp P  &kp NUMBER_6
+&trans  &trans  &trans  &trans  &trans  &trans           &kp TILDE         &kp G         &kp W         &kp B  &kp F         &kp 0
+&trans  &trans  &trans  &trans  &trans  &trans               &kp X         &kp A         &kp S         &kp D  &kp C         &kp 0
+                        &trans  &trans  &trans    &kp LEFT_CONTROL         &mo 6     &kt SPACE
             >;
         };
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans     &kp R   &kp T   &kp Y   &kp U   &kp I   &kp 0
+&trans  &trans  &trans  &trans  &trans  &trans     &kp R   &kp T   &kp Y    &kp U    &kp I   &kp 0
+&trans  &trans  &trans  &trans  &trans  &trans    &kp F3  &kp F5  &kp F9  &kp F11  &kp F12  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans   &trans   &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
