@@ -29,7 +29,7 @@
 
         btlayer {
             bindings = <&to 3>;
-            key-positions = <0 12 24>;
+            key-positions = <1 13 25>;
         };
     };
 
