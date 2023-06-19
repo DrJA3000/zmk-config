@@ -47,7 +47,7 @@
   &kp TAB  &kp Q  &kp W           &kp E  &kp R      &kp T      &kp Y  &kp U      &kp I    &kp O     &kp P  &kp BSPC
 &kp LCTRL  &kp A  &kp S           &kp D  &kp F      &kp G      &kp H  &kp J      &kp K    &kp L   &kp SQT   &kp SQT
 &kp LSHFT  &kp Z  &kp X           &kp C  &kp V      &kp B      &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH   &kp ESC
-                         &kp LEFT_SHIFT  &mo 1  &kp SPACE    &kp RET  &mo 2   &kp RALT
+                         &kp LEFT_SHIFT  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RSHFT
             >;
         };
 
@@ -59,10 +59,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-  &kp ESC  &kp N1  &kp N2   &kp N3    &kp N4     &kp N5           &kp N6     &kp N7    &kp N8     &kp N9                &kp N0  &kp BSPC
-   &trans  &trans  &trans  &kp ESC  &kp LGUI     &trans       &kp DELETE  &kp MINUS    &kp UP  &kp EQUAL         &kp SEMICOLON    &trans
-&kp LSHFT   &kp 0  &trans   &trans    &trans     &trans    &kp BACKSPACE   &kp LEFT  &kp DOWN  &kp RIGHT  &kp NON_US_BACKSLASH    &trans
-                            &trans    &trans  &kp SPACE          &kp RET     &trans  &kp RALT
+  &kp ESC   &kp N1  &kp N2  &kp N3    &kp N4     &kp N5           &kp N6     &kp N7    &kp N8     &kp N9                &kp N0  &kp BSPC
+   &trans  &kp ESC  &trans  &trans  &kp LGUI  &kp PG_UP       &kp DELETE  &kp MINUS    &kp UP  &kp EQUAL         &kp SEMICOLON    &trans
+&kp LSHFT    &kp 0  &trans  &trans    &trans  &kp PG_DN    &kp BACKSPACE   &kp LEFT  &kp DOWN  &kp RIGHT  &kp NON_US_BACKSLASH    &trans
+                            &trans    &trans  &kp SPACE          &kp RET     &trans    &trans
             >;
         };
 
@@ -74,10 +74,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-  &kp TAB   &kp F1   &kp F2    &kp F3  &kp F4     &kp F5       &kp F6    &kp F7    &kp F8    &kp F9   &kp F10   &kp BSPC
-&kp LCTRL  &kp F11  &kp F12    &trans  &trans     &trans     &kp LALT   &kp TAB  &kp LBKT  &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHFT   &trans   &trans    &trans  &trans     &trans    &kp UNDER  &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE  &kp TILDE
-                             &kp LGUI  &trans  &kp SPACE      &kp RET    &trans  &kp RALT
+  &kp TAB   &kp F1   &kp F2  &kp F3  &kp F4     &kp F5       &kp F6    &kp F7    &kp F8    &kp F9   &kp F10   &kp BSPC
+&kp LCTRL  &kp F11  &kp F12  &trans  &trans     &trans     &kp LALT   &kp TAB  &kp LBKT  &kp RBKT  &kp BSLH  &kp GRAVE
+&kp LSHFT   &trans   &trans  &trans  &trans     &trans    &kp UNDER  &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE  &kp TILDE
+                             &trans  &trans  &kp SPACE      &kp RET    &trans    &trans
             >;
         };
 
