@@ -26,6 +26,11 @@
             bindings = <&to 5>;
             key-positions = <30 34>;
         };
+
+        btlayer {
+            bindings = <&to 3>;
+            key-positions = <0 12 24>;
+        };
     };
 
     keymap {
