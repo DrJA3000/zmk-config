@@ -42,9 +42,8 @@
                 <&kp>;
 
             #binding-cells = <2>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
             tapping-term-ms = <280>;
-            quick-tap-ms = <150>;
             hold-trigger-on-release;
         };
         hold_right: hold_right {
