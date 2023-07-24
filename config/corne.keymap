@@ -119,6 +119,8 @@
 &trans                  &kp Z             &kp X                  &kp C  &kp V      &kp B      &kp N  &kp M               &kp COMMA            &kp DOT                          &kp FSLH  &trans
                                                         &kp LEFT_SHIFT  &mo 1  &kp SPACE    &kp RET  &mo 2        &kp LEFT_CONTROL
             >;
+
+            label = "Base";
         };
 
         lower_layer {
@@ -134,6 +136,8 @@
 &trans  &kp GRAVE     &kp C_VOL_DN      &trans    &trans  &kp PG_DN    &kp BACKSPACE   &kp LEFT  &kp DOWN  &kp RIGHT  &kp NON_US_BACKSLASH  &trans
                                         &trans    &trans  &kp SPACE          &kp RET     &trans    &trans
             >;
+
+            label = "Layer 1";
         };
 
         raise_layer {
@@ -158,6 +162,8 @@
 &trans        &trans        &trans        &trans        &trans        &trans    &kp KP_EQUAL  &kp N1    &kp N2  &kp N3         &kp MINUS  &trans
                                           &trans        &trans        &trans      &kp PERIOD  &kp N0  &kp FSLH
             >;
+
+            label = "sys layer";
         };
 
         layer_4 {
@@ -176,6 +182,8 @@
 &trans  &trans  &trans  &trans  &trans     &trans           &kp X         &kp A             &kp S         &kp D  &kp C         &kp 0
                         &trans  &trans  &kp ENTER      &kp LSHIFT         &mo 6  &kp LEFT_CONTROL
             >;
+
+            label = "WOWS";
         };
 
         layer_6 {
@@ -185,6 +193,8 @@
 &trans  &trans  &trans  &trans  &trans   &trans     &kp H  &kp LALT  &kp PRINTSCREEN  &kp KP_PLUS  &kp KP_MINUS  &trans
                         &trans  &trans   &trans    &trans    &trans           &trans
             >;
+
+            label = "WOWS_1";
         };
 
         layer_7 {
