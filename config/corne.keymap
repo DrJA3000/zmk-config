@@ -36,7 +36,6 @@
         new_combo {
             bindings = <&snipping>;
             key-positions = <7 9>;
-            global-quick-tap-ms = <150>
         };
 
         copy {
