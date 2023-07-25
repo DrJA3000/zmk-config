@@ -99,7 +99,7 @@
             compatible = "zmk,behavior-macro";
             label = "PASTE";
             #binding-cells = <0>;
-            bindings = <&kp LC(P)>;
+            bindings = <&kp LC(V)>;
         };
     };
 
