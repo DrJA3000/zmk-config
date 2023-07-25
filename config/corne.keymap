@@ -11,6 +11,7 @@
 / {
     combos {
         compatible = "zmk,combos";
+        global-quick-tap-ms = <150>;
 
         jumpto0 {
             bindings = <&to 0>;
@@ -36,7 +37,6 @@
         new_combo {
             bindings = <&snipping>;
             key-positions = <7 9>;
-            global-quick-tap-ms = <150>;
         };
 
         copy {
