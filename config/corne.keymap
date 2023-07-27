@@ -49,7 +49,7 @@
             key-positions = <31 32>;
         };
 
-        new_combo {
+        backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <18 19>;
         };
