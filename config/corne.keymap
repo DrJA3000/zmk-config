@@ -36,37 +36,43 @@
         new_combo {
             bindings = <&snipping>;
             key-positions = <7 9>;
-            global-quick-tap-ms = <150>;
+            global-quick-tap-ms = <250>;
         };
 
         copy {
             bindings = <&copy>;
             key-positions = <30 31>;
+            global-quick-tap-ms = <250>;
         };
 
         paste {
             bindings = <&paste>;
             key-positions = <31 32>;
+            global-quick-tap-ms = <250>;
         };
 
         backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <18 19>;
+            global-quick-tap-ms = <250>;
         };
 
         delete {
             bindings = <&kp DELETE>;
             key-positions = <6 7>;
+            global-quick-tap-ms = <250>;
         };
 
         esc {
             bindings = <&kp ESCAPE>;
             key-positions = <10 22>;
+            global-quick-tap-ms = <250>;
         };
 
         mute_google {
             bindings = <&cntr_D>;
             key-positions = <9 21 33>;
+            global-quick-tap-ms = <250>;
         };
     };
 
