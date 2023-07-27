@@ -48,6 +48,11 @@
             bindings = <&paste>;
             key-positions = <31 32>;
         };
+
+        new_combo {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <18 19>;
+        };
     };
 
     behaviors {
