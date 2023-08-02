@@ -87,7 +87,7 @@
         };
 
         task_man {
-            bindings = <&kp LS(RS(ESCAPE))>;
+            bindings = <&kp RS(LC(ESCAPE))>;
             key-positions = <26 14 2>;
         };
 
