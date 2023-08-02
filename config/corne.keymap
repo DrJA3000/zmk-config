@@ -92,7 +92,7 @@
         };
 
         undo {
-            bindings = <&kp RS(Z)>;
+            bindings = <&kp LC(Z)>;
             key-positions = <7 19>;
         };
     };
