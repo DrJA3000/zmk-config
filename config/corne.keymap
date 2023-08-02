@@ -75,9 +75,9 @@
             global-quick-tap-ms = <250>;
         };
 
-        undo {
-            bindings = <&kp RC(Z)>;
-            key-positions = <9 21>;
+        redo {
+            bindings = <&kp RC(Y)>;
+            key-positions = <8 20>;
         };
 
         chat_wows {
@@ -89,6 +89,11 @@
         task_man {
             bindings = <&kp LS(RS(ESCAPE))>;
             key-positions = <26 14 2>;
+        };
+
+        undo {
+            bindings = <&kp RS(Z)>;
+            key-positions = <7 19>;
         };
     };
 
