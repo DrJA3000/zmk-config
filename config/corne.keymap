@@ -171,10 +171,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&trans                  &kp Q             &kp W                  &kp E  &kp R      &kp T      &kp Y  &kp U                   &kp I              &kp O                             &kp P  &trans
-&trans  &hold_left LEFT_ALT A  &hold_left TAB S  &hold_left LEFT_GUI D  &kp F      &kp G      &kp H  &kp J  &hold_right LEFT_GUI K  &hold_right TAB L  &hold_right RIGHT_ALT APOSTROPHE  &trans
-&trans                  &kp Z             &kp X                  &kp C  &kp V      &kp B      &kp N  &kp M               &kp COMMA            &kp DOT                          &kp FSLH  &trans
-                                                        &kp LEFT_SHIFT  &mo 1  &kp SPACE    &kp RET  &mo 2        &kp LEFT_CONTROL
+&trans  &kp Q                  &kp W             &kp E                  &kp R  &kp T        &kp Y    &kp U  &kp I                   &kp O              &kp P                             &trans
+&trans  &hold_left LEFT_ALT A  &hold_left TAB S  &hold_left LEFT_GUI D  &kp F  &kp G        &kp H    &kp J  &hold_right LEFT_GUI K  &hold_right TAB L  &hold_right RIGHT_ALT APOSTROPHE  &trans
+&trans  &kp Z                  &kp X             &kp C                  &kp V  &kp B        &kp N    &kp M  &kp COMMA               &kp DOT            &kp FSLH                          &trans
+                                                 &kp LEFT_SHIFT         &mo 1  &kp SPACE    &kp RET  &mo 2  &kp LEFT_CONTROL
             >;
 
             label = "Base";
@@ -188,10 +188,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans     &kp N1           &kp N2      &kp N3    &kp N4     &kp N5           &kp N6     &kp N7    &kp N8     &kp N9                &kp N0  &trans
-&trans    &kp ESC  &kp C_VOLUME_UP  &kp C_MUTE  &kp LGUI  &kp PG_UP       &kp DELETE  &kp MINUS    &kp UP  &kp EQUAL         &kp SEMICOLON  &trans
-&trans  &kp GRAVE     &kp C_VOL_DN      &trans    &trans  &kp PG_DN    &kp BACKSPACE   &kp LEFT  &kp DOWN  &kp RIGHT  &kp NON_US_BACKSLASH  &trans
-                                        &trans    &trans  &kp SPACE          &kp RET     &trans    &trans
+&trans  &kp N1     &kp N2           &kp N3      &kp N4    &kp N5       &kp N6         &kp N7     &kp N8    &kp N9     &kp N0                &trans
+&trans  &kp ESC    &kp C_VOLUME_UP  &kp C_MUTE  &kp LGUI  &kp PG_UP    &kp DELETE     &kp MINUS  &kp UP    &kp EQUAL  &kp SEMICOLON         &trans
+&trans  &kp GRAVE  &kp C_VOL_DN     &trans      &trans    &kp PG_DN    &kp BACKSPACE  &kp LEFT   &kp DOWN  &kp RIGHT  &kp NON_US_BACKSLASH  &trans
+                                    &trans      &trans    &kp SPACE    &kp RET        &trans     &trans
             >;
 
             label = "Layer 1";
@@ -205,19 +205,19 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans   &kp F1   &kp F2  &kp F3     &kp F4           &kp F5       &kp F6    &kp F7    &kp F8    &kp F9   &kp F10  &trans
-&trans  &kp F11  &kp F12  &trans  &kp LCTRL          &kp DEL     &kp LALT   &kp TAB  &kp LBKT  &kp RBKT  &kp BSLH  &trans
-&trans   &trans   &trans  &trans     &trans  &kp PRINTSCREEN    &kp UNDER  &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE  &trans
-                          &trans     &trans           &trans       &trans    &trans    &trans
+&trans  &kp F1   &kp F2   &kp F3  &kp F4     &kp F5             &kp F6     &kp F7    &kp F8    &kp F9    &kp F10   &trans
+&trans  &kp F11  &kp F12  &trans  &kp LCTRL  &kp DEL            &kp LALT   &kp TAB   &kp LBKT  &kp RBKT  &kp BSLH  &trans
+&trans  &trans   &trans   &trans  &trans     &kp PRINTSCREEN    &kp UNDER  &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE  &trans
+                          &trans  &trans     &trans             &trans     &trans    &trans
             >;
         };
 
         layer_3 {
             bindings = <
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4          &trans  &kp N7    &kp N8  &kp N9  &kp LS(ASTERISK)  &trans
-&trans    &bt BT_CLR        &trans        &trans        &trans        &trans       &snipping  &kp N4    &kp N5  &kp N6          &kp PLUS  &trans
-&trans        &trans        &trans        &trans        &trans        &trans    &kp KP_EQUAL  &kp N1    &kp N2  &kp N3         &kp MINUS  &trans
-                                          &trans        &trans        &trans      &kp PERIOD  &kp N0  &kp FSLH
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans        &kp N7  &kp N8    &kp N9  &kp LS(ASTERISK)  &trans
+&trans  &bt BT_CLR    &trans        &trans        &trans        &trans          &snipping     &kp N4  &kp N5    &kp N6  &kp PLUS          &trans
+&trans  &trans        &trans        &trans        &trans        &trans          &kp KP_EQUAL  &kp N1  &kp N2    &kp N3  &kp MINUS         &trans
+                                    &trans        &trans        &trans          &kp PERIOD    &kp N0  &kp FSLH
             >;
 
             label = "sys layer";
@@ -234,10 +234,10 @@
 
         layer_5 {
             bindings = <
-&trans  &trans  &trans  &trans        &trans  &kp ESCAPE      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp P  &kp NUMBER_6
-&trans  &trans  &trans  &trans  &kp LEFT_ALT     &kp TAB         &kp TILDE         &kp G         &kp W         &kp B  &kp F         &kp 0
-&trans  &trans  &trans  &trans        &trans      &trans             &kp X         &kp A         &kp S         &kp D  &kp C         &kp 0
-                        &trans        &trans   &kp ENTER    &kp LC(LSHIFT)         &mo 6     &kp SPACE
+&trans  &trans  &trans  &trans  &trans        &kp ESCAPE    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4  &kp N5  &kp NUMBER_6
+&trans  &trans  &trans  &trans  &kp LEFT_ALT  &kp TAB       &kp O         &kp G         &kp W             &kp B         &kp F   &kp 0
+&trans  &trans  &trans  &trans  &trans        &trans        &kp X         &kp A         &kp S             &kp D         &kp C   &kp 0
+                        &trans  &trans        &kp ENTER     &kp LSHIFT    &mo 6         &kp LEFT_CONTROL
             >;
 
             label = "WOWS";
@@ -245,10 +245,10 @@
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &kp ESC     &kp R     &kp T            &kp Y        &kp U         &kp I   &kp 0
-&trans  &trans  &trans  &trans  &trans   &trans    &kp F3    &kp F5           &kp F9      &kp F11       &kp F12  &trans
-&trans  &trans  &trans  &trans  &trans   &trans     &kp H  &kp LALT  &kp PRINTSCREEN  &kp KP_PLUS  &kp KP_MINUS  &trans
-                        &trans  &trans   &trans    &trans    &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &kp ESC    &kp R   &kp T     &kp Y            &kp U        &kp I         &kp 0
+&trans  &trans  &trans  &trans  &trans  &trans     &kp F3  &kp F5    &kp F9           &kp F11      &kp F12       &trans
+&trans  &trans  &trans  &trans  &trans  &trans     &kp H   &kp LALT  &kp PRINTSCREEN  &kp KP_PLUS  &kp KP_MINUS  &trans
+                        &trans  &trans  &trans     &trans  &trans    &trans
             >;
 
             label = "WOWS_1";
