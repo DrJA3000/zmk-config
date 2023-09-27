@@ -47,7 +47,7 @@
 
         paste {
             bindings = <&paste>;
-            key-positions = <31 32>;
+            key-positions = <31 33>;
             global-quick-tap-ms = <250>;
         };
 
