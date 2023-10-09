@@ -269,9 +269,9 @@
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &kp ESC    &kp R   &kp T     &kp Y            &kp U        &kp I         &kp 0
-&trans  &trans  &trans  &trans  &trans  &trans     &kp F3  &kp F5    &kp F9           &kp F11      &kp F12       &trans
-&trans  &trans  &trans  &trans  &trans  &trans     &kp P   &kp LALT  &kp PRINTSCREEN  &kp KP_PLUS  &kp KP_MINUS  &trans
+&trans  &trans  &trans  &trans  &trans  &kp ESC    &kp R   &kp T     &kp Y   &kp U            &kp I    &kp 0
+&trans  &trans  &trans  &trans  &trans  &trans     &kp F3  &kp F5    &kp F9  &kp F11          &kp F12  &trans
+&trans  &trans  &trans  &trans  &trans  &trans     &kp P   &kp LALT  &kp M   &kp PRINTSCREEN  &trans   &trans
                         &trans  &trans  &trans     &trans  &trans    &trans
             >;
 
