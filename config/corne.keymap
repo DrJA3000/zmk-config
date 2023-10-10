@@ -114,6 +114,12 @@
             bindings = <&kp LG(LEFT)>;
             key-positions = <33 21>;
         };
+
+        prnscrn_wows {
+            bindings = <&kp PRINTSCREEN>;
+            key-positions = <3 4>;
+            layers = <5>;
+        };
     };
 
     behaviors {
