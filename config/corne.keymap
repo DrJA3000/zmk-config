@@ -36,7 +36,7 @@
         new_combo {
             bindings = <&snipping>;
             key-positions = <7 9>;
-            require-prior-idle-ms = <125>;
+            require-prior-idle-ms = <500>;
         };
 
         copy {
