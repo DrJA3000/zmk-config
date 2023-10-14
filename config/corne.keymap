@@ -42,87 +42,87 @@
         copy {
             bindings = <&copy>;
             key-positions = <30 31>;
-            require-prior-idle-ms = <125>;
+            require-prior-idle-ms = <500>;
         };
 
         paste {
             bindings = <&paste>;
             key-positions = <31 33>;
-            require-prior-idle-ms = <125>;
+            require-prior-idle-ms = <500>;
         };
 
         backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <18 19>;
-            require-prior-idle-ms = <125>;
+            require-prior-idle-ms = <500>;
         };
 
         delete {
             bindings = <&kp DELETE>;
             key-positions = <6 7>;
-            require-prior-idle-ms = <125>;
+            require-prior-idle-ms = <500>;
         };
 
         esc {
             bindings = <&kp ESCAPE>;
             key-positions = <10 22>;
-            require-prior-idle-ms = <125>;
+            require-prior-idle-ms = <500>;
         };
 
         mute_google {
             bindings = <&cntr_D>;
             key-positions = <9 21 33>;
-            require-prior-idle-ms = <125>;
+            require-prior-idle-ms = <500>;
         };
 
         redo {
             bindings = <&kp RC(Y)>;
             key-positions = <8 20>;
-            require-prior-idle-ms = <125>;
+            require-prior-idle-ms = <500>;
         };
 
         chat_wows {
             bindings = <&to 4>;
             key-positions = <36 37>;
-            require-prior-idle-ms = <125>;
+            require-prior-idle-ms = <500>;
             layers = <5>;
         };
 
         task_man {
             bindings = <&kp LC(RS(ESCAPE))>;
             key-positions = <26 14 2>;
-            require-prior-idle-ms = <125>;
+            require-prior-idle-ms = <500>;
         };
 
         undo {
             bindings = <&kp LC(Z)>;
             key-positions = <7 19>;
-            require-prior-idle-ms = <125>;
+            require-prior-idle-ms = <500>;
         };
 
         back_from_chat {
             bindings = <&to 5>;
             key-positions = <40 41>;
-            require-prior-idle-ms = <125>;
+            require-prior-idle-ms = <500>;
             layers = <4>;
         };
 
         win_right {
             bindings = <&kp LG(RIGHT)>;
             key-positions = <22 34>;
-            require-prior-idle-ms = <125>;
+            require-prior-idle-ms = <500>;
         };
 
         win_left {
             bindings = <&kp LG(LEFT)>;
             key-positions = <33 21>;
-            require-prior-idle-ms = <125>;
+            require-prior-idle-ms = <500>;
         };
 
         prnscrn_wows {
             bindings = <&kp PRINTSCREEN>;
             key-positions = <3 4>;
-            require-prior-idle-ms = <125>;
+            require-prior-idle-ms = <500>;
             layers = <5>;
         };
     };
