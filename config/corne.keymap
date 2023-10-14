@@ -82,9 +82,9 @@
         };
 
         chat_wows {
-            bindings = <&to 4>;
+            bindings = <&layer4_enter>;
             key-positions = <36 37>;
-            require-prior-idle-ms = <500>;
+            require-prior-idle-ms = <125>;
             layers = <5>;
         };
 
@@ -192,6 +192,12 @@
             #binding-cells = <0>;
             bindings = <&none>;
             label = "WIN_LEFT";
+        };
+        layer4_enter: layer4_enter {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 4 &kp ENTER>;
+            label = "LAYER4_ENTER";
         };
     };
 
