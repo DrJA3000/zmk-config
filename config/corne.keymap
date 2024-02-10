@@ -213,6 +213,20 @@
             bindings = <&to 4 &kp ENTER>;
             label = "LAYER4_ENTER";
         };
+
+        asw_turret_lock: asw_turret_lock {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp NUMBER_4 &kp RC(X)>;
+            label = "ASW_TURRET_LOCK";
+        };
+
+        planes_lock: planes_lock {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N5 &kp RC(X)>;
+            label = "PLANES_LOCK";
+        };
     };
 
     keymap {
