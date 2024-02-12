@@ -132,6 +132,12 @@
             layers = <5 6>;
             require-prior-idle-ms = <5000>;
         };
+
+        wows_streaming {
+            bindings = <&kp LA(Z)>;
+            key-positions = <2 14 26>;
+            layers = <5>;
+        };
     };
 
     behaviors {
