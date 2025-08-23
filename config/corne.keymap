@@ -346,7 +346,16 @@
 
         layer_8 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp N4  &kp P   &kp P
+&trans  &trans  &trans  &trans  &trans  &trans    &kp D          &kp T         &trans        &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp Z          &kp LEFT_ALT  &trans        &trans  &trans  &trans
+                        &trans  &trans  &trans    &kp LS(LCTRL)  &kp LCTRL     &mo 9
+            >;
+        };
+
+        layer_9 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &kp Q   &kp W   &kp E   &kp R   &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
