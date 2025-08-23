@@ -144,6 +144,11 @@
             key-positions = <40 41>;
             layers = <0 1 2 4>;
         };
+
+        RA2 {
+            bindings = <&to 8>;
+            key-positions = <0 24 11 35>;
+        };
     };
 
     behaviors {
