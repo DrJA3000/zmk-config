@@ -337,7 +337,16 @@
 
         layer_7 {
             bindings = <
-&kp N1  &kp N2  &kp N3  &kp N4  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&kp N1  &kp N2  &kp N3  &kp N4  &trans  &trans    &trans                &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans                &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans                &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &kp RS(LEFT_CONTROL)  &trans  &trans
+            >;
+        };
+
+        layer_8 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
