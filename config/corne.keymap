@@ -366,5 +366,34 @@
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
+
+        layer_10 {
+            label = "Base";
+            bindings = <
+&trans  &kp Q                  &kp W             &kp E                  &kp R  &kp T        &kp Y    &kp U   &kp I             &kp O    &kp P     &trans
+&trans  &hold_left LEFT_ALT A  &hold_left TAB S  &hold_left LEFT_GUI D  &kp F  &kp G        &kp H    &kp J   &kp K             &kp L    &kp SQT   &trans
+&trans  &kp Z                  &kp X             &kp C                  &kp V  &kp B        &kp N    &kp M   &kp COMMA         &kp DOT  &kp FSLH  &trans
+                                                 &kp LEFT_SHIFT         &mo 1  &kp SPACE    &kp RET  &mo 12  &kp LEFT_CONTROL
+            >;
+        };
+
+        layer_11 {
+            label = "Layer 1";
+            bindings = <
+&trans  &kp N1     &kp N2           &kp N3      &kp N4    &kp N5       &kp N6         &kp N7     &kp N8    &kp N9     &kp N0                &trans
+&trans  &kp ESC    &kp C_VOLUME_UP  &kp C_MUTE  &kp LGUI  &kp PG_UP    &kp DELETE     &kp MINUS  &kp UP    &kp EQUAL  &kp SEMICOLON         &trans
+&trans  &kp GRAVE  &kp C_VOL_DN     &trans      &trans    &kp PG_DN    &kp BACKSPACE  &kp LEFT   &kp DOWN  &kp RIGHT  &kp NON_US_BACKSLASH  &trans
+                                    &trans      &trans    &kp SPACE    &kp RET        &trans     &trans
+            >;
+        };
+
+        layer_12 {
+            bindings = <
+&trans  &kp F1   &kp F2   &kp F3        &kp F4     &kp F5             &kp F6   &kp F7   &kp F8    &kp F9    &kp F10   &trans
+&trans  &kp F11  &kp F12  &kp CAPSLOCK  &kp LCTRL  &kp DEL            &kp F13  &kp F14  &kp LBKT  &kp RBKT  &kp BSLH  &trans
+&trans  &trans   &trans   &trans        &trans     &kp PRINTSCREEN    &kp F15  &kp F16  &kp F17   &kp F18   &kp F19   &trans
+                          &trans        &trans     &trans             &trans   &trans   &trans
+            >;
+        };
     };
 };
