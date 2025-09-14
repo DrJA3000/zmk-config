@@ -149,6 +149,11 @@
             bindings = <&to 8>;
             key-positions = <34 10 25 1>;
         };
+
+        SC2 {
+            bindings = <&to 10>;
+            key-positions = <2 26 9 33>;
+        };
     };
 
     behaviors {
@@ -368,7 +373,7 @@
         };
 
         layer_10 {
-            label = "Base";
+            label = "SC2";
             bindings = <
 &trans  &kp Q                  &kp W             &kp E                  &kp R  &kp T        &kp Y    &kp U   &kp I             &kp O    &kp P     &trans
 &trans  &hold_left LEFT_ALT A  &hold_left TAB S  &hold_left LEFT_GUI D  &kp F  &kp G        &kp H    &kp J   &kp K             &kp L    &kp SQT   &trans
@@ -378,7 +383,7 @@
         };
 
         layer_11 {
-            label = "Layer 1";
+            label = "SC2-1";
             bindings = <
 &trans  &kp N1     &kp N2           &kp N3      &kp N4    &kp N5       &kp N6         &kp N7     &kp N8    &kp N9     &kp N0                &trans
 &trans  &kp ESC    &kp C_VOLUME_UP  &kp C_MUTE  &kp LGUI  &kp PG_UP    &kp DELETE     &kp MINUS  &kp UP    &kp EQUAL  &kp SEMICOLON         &trans
