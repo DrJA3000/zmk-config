@@ -154,6 +154,12 @@
             bindings = <&to 10>;
             key-positions = <2 26 9 33>;
         };
+
+        ShiftSC2 {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <40 41>;
+            layers = <10 11>;
+        };
     };
 
     behaviors {
