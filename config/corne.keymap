@@ -160,6 +160,12 @@
             key-positions = <40 41>;
             layers = <10 11>;
         };
+
+        SC2_Alt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <39 40>;
+            layers = <10 11>;
+        };
     };
 
     behaviors {
